@@ -25,21 +25,24 @@ public static class SeedData
                     Title = "The Lord of the Rings: The Fellowship of the Ring",
                     ReleaseDate = DateTime.Parse("2001-12-19"),
                     Genre = "Fantasy",
-                    Price = 9.99M
+                    Price = 9.99M,
+                    Rating = "R"
                 },
                 new Movie
                 {
                     Title = "The Lord of the Rings: The Two Towers",
                     ReleaseDate = DateTime.Parse("2002-12-18"),
                     Genre = "Fantasy",
-                    Price = 9.99M
+                    Price = 9.99M,
+                    Rating = "R"
                 },
                 new Movie
                 {
                     Title = "The Lord of the Rings: The Return of the King",
                     ReleaseDate = DateTime.Parse("2003-12-17"),
                     Genre = "Fantasy",
-                    Price = 9.99M
+                    Price = 9.99M,
+                    Rating = "R"
                 },
 
                 // Add The Hobbit trilogy
@@ -48,21 +51,24 @@ public static class SeedData
                     Title = "The Hobbit: An Unexpected Journey",
                     ReleaseDate = DateTime.Parse("2012-12-14"),
                     Genre = "Fantasy",
-                    Price = 8.99M
+                    Price = 8.99M,
+                    Rating = "R"
                 },
                 new Movie
                 {
                     Title = "The Hobbit: The Desolation of Smaug",
                     ReleaseDate = DateTime.Parse("2013-12-13"),
                     Genre = "Fantasy",
-                    Price = 8.99M
+                    Price = 8.99M,
+                    Rating = "R"
                 },
                 new Movie
                 {
                     Title = "The Hobbit: The Battle of the Five Armies",
                     ReleaseDate = DateTime.Parse("2014-12-17"),
                     Genre = "Fantasy",
-                    Price = 8.99M
+                    Price = 8.99M,
+                    Rating = "R"
                 }
             );
 
