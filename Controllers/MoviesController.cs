@@ -37,7 +37,7 @@ namespace MvcMovie.Controllers
 
             if (searchYear.HasValue && searchYear.Value >0)
             {
-                movies = movies.Where(y => y.ReleaseDate.Year == searchYear.Value);
+                movies = movies.Where(y => y.ReleaseDate.Year >= searchYear.Value);
             }
 
 
